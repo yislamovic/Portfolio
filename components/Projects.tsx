@@ -17,21 +17,21 @@ const projects: Project[] = [
     description: 'A full-featured e-commerce application built with Rails 6.1. Features include product management, shopping cart, Stripe payment integration, admin authentication, and comprehensive image handling with CarrierWave. Upgraded from Rails 4.2 with modern Ruby 3.1.7 compatibility.',
     technologies: ['Rails', 'Ruby', 'PostgreSQL', 'Stripe', 'Bootstrap'],
     githubUrl: 'https://github.com/yislamovic/jungle',
-    // liveUrl will be added after VPS deployment
+    liveUrl: 'http://jungle.yahyaislamovic.dev',
   },
   {
     title: 'TinyApp',
     description: 'A sophisticated URL shortening service featuring advanced analytics, QR code generation, and a modern dark-themed interface. Includes real-time click tracking, performance charts, secure user authentication with bcrypt, and comprehensive API endpoints for URL management.',
     technologies: ['Node.js', 'Express', 'EJS', 'Bootstrap', 'Chart.js'],
     githubUrl: 'https://github.com/yislamovic/tinyapp',
-    // liveUrl will be added after VPS deployment
+    liveUrl: 'http://tinyapp.yahyaislamovic.dev',
   },
   {
     title: 'Interview Scheduler',
     description: 'A modern single-page React application for booking and managing interviews. Features real-time updates, component-based architecture with custom hooks, comprehensive testing with Jest and Cypress, and a professional dark-themed UI with form validation.',
     technologies: ['React', 'Express', 'Axios', 'Storybook', 'Jest'],
     githubUrl: 'https://github.com/yislamovic/scheduler',
-    // liveUrl will be added after VPS deployment
+    liveUrl: 'http://scheduler.yahyaislamovic.dev',
   },
 ]
 
