@@ -8,27 +8,35 @@ import {
   SiNodedotjs,
   SiPython,
   SiPostgresql,
-  SiMongodb,
   SiDocker,
   SiGit,
   SiTailwindcss,
-  SiGraphql,
-  SiAmazon
+  SiAmazon,
+  SiDotnet,
+  SiUnity,
+  SiExpress,
+  SiJest,
+  SiLinux
 } from 'react-icons/si'
+import { FiCloud } from 'react-icons/fi'
 
 const technologies = [
+  { name: 'JavaScript/TypeScript', icon: SiTypescript, color: '#3178C6' },
   { name: 'React', icon: SiReact, color: '#61DAFB' },
-  { name: 'Next.js', icon: SiNextdotjs, color: '#000000' },
-  { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
   { name: 'Node.js', icon: SiNodedotjs, color: '#339933' },
-  { name: 'Python', icon: SiPython, color: '#3776AB' },
+  { name: 'Express', icon: SiExpress, color: '#000000' },
   { name: 'PostgreSQL', icon: SiPostgresql, color: '#4169E1' },
-  { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
+  { name: '.NET', icon: SiDotnet, color: '#512BD4' },
+  { name: 'Unity', icon: SiUnity, color: '#000000' },
+  { name: 'Python', icon: SiPython, color: '#3776AB' },
+  { name: 'Azure', icon: FiCloud, color: '#0078D4' },
   { name: 'Docker', icon: SiDocker, color: '#2496ED' },
-  { name: 'Git', icon: SiGit, color: '#F05032' },
-  { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4' },
-  { name: 'GraphQL', icon: SiGraphql, color: '#E10098' },
   { name: 'AWS', icon: SiAmazon, color: '#FF9900' },
+  { name: 'Git', icon: SiGit, color: '#F05032' },
+  { name: 'Jest', icon: SiJest, color: '#C21325' },
+  { name: 'Linux', icon: SiLinux, color: '#FCC624' },
+  { name: 'Next.js', icon: SiNextdotjs, color: '#000000' },
+  { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4' },
 ]
 
 export default function About() {
@@ -56,15 +64,16 @@ export default function About() {
             className="max-w-3xl mx-auto mb-16"
           >
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-              I'm a Full Stack Software Engineer with a passion for creating elegant,
-              efficient solutions to complex problems. With expertise spanning modern web
-              technologies, cloud infrastructure, and software architecture, I bring ideas
-              to life through clean, maintainable code.
+              Process and outcome-driven Software Engineer / Full Stack Developer with 2.5 years
+              of experience using the PERN stack (JavaScript/TypeScript, PostgreSQL, Express, React, Node)
+              and C#/.NET. Based in Brampton, ON and open to relocate across Canada.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              Whether it's building responsive user interfaces, designing scalable backend
-              systems, or optimizing application performance, I thrive on the challenge of
-              crafting software that makes a real impact.
+              Ownership-driven, led end-to-end delivery of 5+ production systems professionally across
+              enterprise software solutions, architecting features, creating APIs, and designing clean
+              frontends that increased end-user satisfaction. Effective collaborator who ships reliable
+              features with cross-functional teams while emphasizing code quality, comprehensive testing,
+              and continuous self-improvement.
             </p>
           </motion.div>
 

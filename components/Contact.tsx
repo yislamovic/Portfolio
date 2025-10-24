@@ -1,32 +1,26 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { FiMail, FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi'
+import { FiMail, FiGithub, FiLinkedin } from 'react-icons/fi'
 
 const socialLinks = [
   {
     name: 'Email',
     icon: FiMail,
-    href: 'mailto:yahya@example.com',
+    href: 'mailto:yislamov@icloud.com',
     color: 'text-red-600 dark:text-red-400',
   },
   {
     name: 'GitHub',
     icon: FiGithub,
-    href: 'https://github.com/yahyaislamovic',
+    href: 'https://github.com/yislamovic',
     color: 'text-gray-800 dark:text-gray-200',
   },
   {
     name: 'LinkedIn',
     icon: FiLinkedin,
-    href: 'https://linkedin.com/in/yahyaislamovic',
+    href: 'https://www.linkedin.com/in/yahya-islamovic',
     color: 'text-blue-600 dark:text-blue-400',
-  },
-  {
-    name: 'Twitter',
-    icon: FiTwitter,
-    href: 'https://twitter.com/yahyaislamovic',
-    color: 'text-sky-500 dark:text-sky-400',
   },
 ]
 
@@ -68,7 +62,7 @@ export default function Contact() {
               className="mb-12"
             >
               <a
-                href="mailto:yahya@example.com"
+                href="mailto:yislamov@icloud.com"
                 className="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-medium text-lg hover:shadow-lg hover:scale-105 transition-all duration-200"
               >
                 Send Me an Email

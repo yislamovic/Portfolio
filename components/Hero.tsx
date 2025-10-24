@@ -56,8 +56,8 @@ export default function Hero() {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-10"
           >
-            Passionate about building scalable, elegant software that makes a difference.
-            Transforming ideas into powerful digital experiences.
+            2.5 years of professional experience building enterprise software with the PERN stack.
+            Specialized in full-stack development, cloud infrastructure, and delivering production systems.
           </motion.p>
 
           {/* CTA Buttons */}

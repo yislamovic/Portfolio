@@ -19,7 +19,7 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex items-center space-x-6">
             <a
-              href="https://github.com/yahyaislamovic"
+              href="https://github.com/yislamovic"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
@@ -28,7 +28,7 @@ export default function Footer() {
               <FiGithub className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com/in/yahyaislamovic"
+              href="https://www.linkedin.com/in/yahya-islamovic"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
@@ -37,7 +37,7 @@ export default function Footer() {
               <FiLinkedin className="w-5 h-5" />
             </a>
             <a
-              href="mailto:yahya@example.com"
+              href="mailto:yislamov@icloud.com"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
               aria-label="Email"
             >
